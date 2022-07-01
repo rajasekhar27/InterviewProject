@@ -1,0 +1,16 @@
+.liList{
+    list-style-type: none;
+    margin:10px;
+}
+.listContainer{
+    background-color:#ffffff;
+    width:400px;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+.id{
+    color:#000000;
+}
