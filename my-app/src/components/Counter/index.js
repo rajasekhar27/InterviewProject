@@ -19,7 +19,7 @@ class SampleProject extends Component{
        
         return(
             <>
-            <div className='mainContainer'>
+            <div className='mainCounterContainer'>
                 <div className='counterContainer'>
                 <h1 className='heading'>Counter</h1>
                 <div className='countContainer'>
@@ -28,8 +28,6 @@ class SampleProject extends Component{
                 <button type="button" className='Button' onClick={this.onClickPlusButton}>+</button>
                 </div>
                 </div>
-
-
             </div>
 
             </>

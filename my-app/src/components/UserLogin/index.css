@@ -1,49 +1,24 @@
-.mainContainer{
+.mainGridContainer{
     height:100vh;
     display: flex;
-   
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
-.counterContainer{
+
+.formContainer{
+    height:300px;
+    width:300px;
+    padding:30px;
+    background-color:grey;
+
+}
+.inputContainers{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-    width:500px;
-    height:300px;
+    margin:20px;
+    
 }
-.heading{
-    color:#000000;
-    font-family: Arial;
-    font-weight: bold;
-    font-size:50px;
-}
-.Button{
-    background-color: transparent;
-    padding:10px 25px 10px 25px;
-    color:#000000;
-    font-weight:bold;
-    font-size:30px;
-    border: 2px solid #000000;
-}
-.count{
-    color:#000000;
-    font-family: Arial;
-    font-weight: bold;
-    font-size:30px;
-    margin-left:30px;
-    margin-right:30px;
-}
-.countContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ulList{
-    padding:0px;
-    background-color: #000000;
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
+.submit{
+    margin-left:20px;
 }

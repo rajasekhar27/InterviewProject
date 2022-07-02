@@ -1,6 +1,9 @@
 .liList{
     list-style-type: none;
-    margin:10px;
+    margin-right:10px;
+    margin-top:10px;
+    
+   
 }
 .listContainer{
     background-color:#ffffff;
@@ -8,8 +11,10 @@
     height:200px;
     display:flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     padding:10px;
+    
 }
 .id{
     color:#000000;

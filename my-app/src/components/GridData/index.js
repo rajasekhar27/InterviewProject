@@ -39,18 +39,12 @@ getRequiredResult = async () =>{
         this.setState({responseList:updatedList})
     }
 }
-
-
-
     render(){
         const {responseList} = this.state
        
         return(
             <>
             <div className='mainContainer'>
-                
-
-
             <div className='gridContainer'>
             <ul className='ulList'>
                 {responseList.map(each => (
@@ -58,10 +52,7 @@ getRequiredResult = async () =>{
                 ))}
             </ul>
             </div>
-
-
             </div>
-
             </>
         )
     }

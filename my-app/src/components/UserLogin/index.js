@@ -1,7 +1,6 @@
 
 import { Component } from 'react'
-import Counter from '../Counter'
-import GridData from '../GridData'
+
 
 import './index.css'
 
@@ -46,7 +45,7 @@ onSubmitForm =  async (event) => {
        
         return(
             <>
-            <div className='mainContainer'>
+            <div className='mainGridContainer'>
                 
             <div className='formContainer'>
                 <form  onSubmit = {this.onSubmitForm}>
@@ -65,12 +64,11 @@ onSubmitForm =  async (event) => {
                     <input type="text" id="name" className='inputBox'  value={name} onChange={this.onChangeName}/>
                     </div>
 
-                    <button type='submit'>submit</button>
+                    <button type='submit' className='submit'>submit</button>
                     
                 </form>
             </div>
-            <Counter/>
-            <GridData/>
+          
             </div>
             </>
         )

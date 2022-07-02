@@ -1,0 +1,20 @@
+.mainContainer{
+    height:100vh;
+    display: flex;
+   flex-direction: column;
+}
+
+.gridContainer{
+    background-color: #000000;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+.ulList{
+    padding:0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width:85%;
+}
